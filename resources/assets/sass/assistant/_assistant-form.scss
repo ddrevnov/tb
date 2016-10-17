@@ -1,0 +1,48 @@
+.assistant-form {
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  &__checkbox {
+
+  }
+
+  &__col {
+    display: flex;
+    flex-flow: column wrap;
+
+    &--6 {
+      width: 280px;
+    }
+
+    &--3 {
+      width: 140px;
+    }
+
+    &--4 {
+      width: 180px;
+    }
+
+    &--8 {
+      width: 345px;
+    }
+
+    &--9 {
+      width: 425px;
+    }
+
+    &--12 {
+      width: 100%;
+    }
+  }
+
+}

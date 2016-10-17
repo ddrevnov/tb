@@ -1,0 +1,37 @@
+@import url(client-old.css);
+.times {
+  width: 47%;
+  float: right; }
+  .times__list {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .times__heading {
+    color: #e63525;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0; }
+  .times__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 18px 5px 0;
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 12px;
+    background: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    color: #3a555d;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; }
+    .times__item:nth-child(4n) {
+      margin-right: 0; }
+    .times__item--active {
+      background-color: #3a555d;
+      color: #fff; }
+    .times__item:hover {
+      background-color: #3a555d;
+      color: #fff; }
+
+/*# sourceMappingURL=client.css.map */

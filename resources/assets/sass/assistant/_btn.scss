@@ -1,0 +1,34 @@
+.assistant-btn {
+  padding: 12px 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  border: 0;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &--red {
+    border-bottom-color: #c32622;
+    background: linear-gradient(to top, #ec443f, #e96763);
+
+    &:hover {
+      background: linear-gradient(to top, darken(#ec443f, 10%), darken(#e96763, 10%));
+    }
+  }
+
+  &--gray {
+    border-bottom-color: #868686;
+    background: linear-gradient(to top, #aeaeae, #dadada);
+
+    &:hover {
+      background: linear-gradient(to top, darken(#aeaeae, 10%), darken(#dadada, 10%));
+    }
+  }
+}

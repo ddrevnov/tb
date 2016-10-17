@@ -1,0 +1,41 @@
+.assistant-hero {
+  background-color: #eee;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 100%;
+
+  &__heading {
+    font-size: 68px;
+    margin: 0;
+    margin-bottom: 45px;
+    font-weight: 300;
+  }
+
+  &__in {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    height: 100%;
+  }
+
+  &__ok {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+    background: #ec4641 url(../images/assistant-ok.png) no-repeat center center;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+  }
+
+  &__desc {
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 80px;
+  }
+}

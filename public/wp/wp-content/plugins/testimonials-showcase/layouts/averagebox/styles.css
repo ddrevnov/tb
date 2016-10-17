@@ -1,0 +1,58 @@
+
+/* Star Color */
+.tt_average_rating_box .fa-star, .tt_average_rating_box .fa-star-half-o, .tt_average_rating_box .fa-star-half, .tt_average_rating_box .fa-star-o {
+	color:gold;
+}
+
+
+/* Simple Box Theme */
+.tt_simple_box {
+
+	padding:10px;
+	
+
+}
+
+.tt_simple_box .fa-star, .tt_simple_box .fa-star-half-o, .tt_simple_box .fa-star-half, .tt_average_rating_box .fa-star-o {
+	padding:0 2px;
+}
+
+/* Big Star */
+
+.tt_big_star_box {
+
+	padding:10px;
+	text-align: center;
+
+}
+
+.tt_big_star_box .fa-star, .tt_big_star_box .fa-star-half-o, .tt_big_star_box .fa-star-o {
+	padding:0 2px;
+}
+
+.tt_big_star_box .tt_star_wrap {
+	display:inline-block;
+	width:100%;
+	
+}
+
+.tt_big_star_box .tt_rating_box_stars {
+	display:inline-block;
+	font-size:2em;
+
+
+}
+
+
+.tt_big_star_box .tt_rating_box_star_label {
+	display:block;
+	padding: 3px;
+	display: inline-block;
+
+}
+
+.tt_big_star_box .tt_rating_box_average, .tt_big_star_box .tt_rating_box_total {
+
+	font-size: 0.8em;
+	color:#555;
+}

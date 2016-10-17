@@ -1,0 +1,68 @@
+.assistant-input {
+  background-color: #f9f8f8;
+  border: 1px solid #d8d8d8;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  width: 100%;
+
+  &--select {
+    padding-right: 30px;
+    -webkit-appearance: none;
+    background-image: url('../images/select-arrow-red.png');
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none!important;
+
+    &::-ms-expand {
+      display: none;
+    }
+  }
+
+  &--checkbox {
+    display: none;
+
+    &:not(checked) {
+      + label {
+
+      }
+    }
+
+    &:checked {
+      + label {
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          margin: auto;
+          display: inline-block;
+          background-image: url(../images/sprite.png);
+          background-position: -70px -33px;
+          width: 18px;
+          height: 14px;
+        }
+      }
+    }
+
+    + label {
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: 35px;
+      height: 35px;
+      background: #f9f8f8;
+      border: 1px solid #d8d8d8;
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.assistant-step {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+
+  &__in {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  &__left {
+    width: 620px;
+    margin-right: 25px;
+  }
+
+  &__btns {
+    margin: 40px 0;
+
+    .assistant-btn--gray {
+      margin-right: 30px;
+    }
+  }
+
+}
